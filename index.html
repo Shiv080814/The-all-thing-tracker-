@@ -26,7 +26,7 @@
         }
         .product-details {
             max-width: 600px;
-        }why
+        }
         .product h3 {
             margin: 0 0 10px;
         }
@@ -36,13 +36,22 @@
     <h1>Welcome to Our Product Store</h1>
 
     <!-- Product list (for all users) -->
-    <div id="product-list"></div>
+    <div id="product-list">
+        <div class="product">
+            <img src="URL_TO_YOUR_IMAGE" alt="Kids Healthy Tracker">
+            <div class="product-details">
+                <h3>Kids Healthy Tracker</h3>
+                <p><strong>Description:</strong></p>
+                <p>- **Screen Time Tracker**: Monitors the amount of time kids spend on screens, helping parents ensure a healthy balance.</p>
+                <p>- **Healthy Eating Fun**: Engages children in logging their meals in a fun way, making nutrition education enjoyable.</p>
+                <p>- **Water Intake Tracker**: Encourages kids to drink enough water daily by tracking their consumption, promoting hydration.</p>
+                <p><strong>Price:</strong> $39.99</p>
+            </div>
+        </div>
+        <!-- You can add more products in the same format below -->
+    </div>
 
-    <!-- Firebase SDKs -->
-    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
-
-    <!-- Custom JS -->
+    <!-- Custom JS (if needed) -->
     <script src="app.js"></script>
 </body>
 </html>
